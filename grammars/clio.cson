@@ -67,7 +67,7 @@
         'name' : 'keyword.clio'
       }
       {
-        'match' : '\\b(fn|eager|if|elif|else|import|from|transform|of|type|as)\\b'
+        'match' : '\\b(fn|eager|mmax|if|elif|else|import|from|transform|of|type|as)\\b'
         'name' : 'keyword.clio'
       }
       {
