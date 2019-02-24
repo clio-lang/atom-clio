@@ -67,8 +67,12 @@
         'name' : 'keyword.clio'
       }
       {
-        'match' : '\\b(fn|eager|mmax|if|elif|else|import|from|transform|of|type|as)\\b'
+        'match' : '\\b(fn|eager|mmax|not|if|elif|else|import|from|transform|of|type|as)\\b'
         'name' : 'keyword.clio'
+      }
+      {
+        'match' : '\\b(true|false)\\b'
+        'name' : 'constant.language.clio'
       }
       {
         'match' : '(->( *[*])?)'
@@ -103,10 +107,6 @@
       {
         'match' : '(\\b\\d+)'
         'name' : 'constant.numeric.clio'
-      }
-      {
-        'match': '(my|[a-zA-Z][a-zA-Z0-9_-]*\'s?)',
-        'name': 'variable.other.clio'
       }
       {
         'begin' : '(^|[\\[\\(\\s])(\\\')'
