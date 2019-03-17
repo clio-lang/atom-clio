@@ -1,10 +1,9 @@
 {
   "name": "language-clio",
   "main": "./lib/language-clio",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Clio syntax highlighting for Atom text editor",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "language-clio:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
