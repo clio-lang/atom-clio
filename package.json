@@ -2,7 +2,7 @@
   "name": "language-clio",
   "main": "./lib/language-clio",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Clio syntax highlighting for Atom text editor",
   "keywords": [
   ],
   "activationCommands": {
